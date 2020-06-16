@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/00-premier-prog-js/00-premier-prog-js.iml" filepath="$PROJECT_DIR$/00-premier-prog-js/00-premier-prog-js.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01-variables-types/01-variables-et-types.iml" filepath="$PROJECT_DIR$/01-variables-types/01-variables-et-types.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02-saisie-user/02-saisie-user.iml" filepath="$PROJECT_DIR$/02-saisie-user/02-saisie-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03-type-number/03-type-number.iml" filepath="$PROJECT_DIR$/03-type-number/03-type-number.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/javascript.iml" filepath="$PROJECT_DIR$/.idea/javascript.iml" />
+    </modules>
+  </component>
+</project>
