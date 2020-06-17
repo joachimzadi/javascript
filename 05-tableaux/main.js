@@ -15,12 +15,12 @@
 // console.log(`tailleNumero = ${numeros.length}`);
 // console.log(`tailleTabMixed = ${tabMixed.length}`);
 //
-// //Acces aux elements du tableau
-// console.log(stagiaires[0]);
-// console.log(stagiaires[7]);
-// console.log(stagiaires[3]);
-// console.log(stagiaires[8]);
-//
+//Acces aux elements du tableau
+console.log(stagiaires[0]);
+console.log(stagiaires[7]);
+console.log(stagiaires[3]);
+console.log(stagiaires[8]);
+
 // //Modifier les elements d'un tableau
 // stagiaires[8] = 'Tayachi';
 // console.log(stagiaires[8]);
@@ -34,9 +34,9 @@
 // let numeros = [1, 2, 3, 4];
 // console.log(numeros);
 
-// //Ajoute en fin de tableau
-// numeros.push(-5);
-// console.log(numeros);
+//Ajoute en fin de tableau
+numeros.push(-5);
+console.log(numeros);
 
 // //Supprime le dernier element du tableau
 // numeros.pop();
@@ -54,9 +54,9 @@
 // ++++++++++
 
 // //POUR --> FOR
-// for (let i = 1; i <= 10; i++) {
-//     console.log(i);
-// }
+for (let i = 1; i <= 10; i++) {
+    console.log(i);
+}
 
 // //TANT QUE --> WHILE
 // let i = 11;
@@ -93,10 +93,10 @@
 //     console.log(stagiaire);
 // }
 //
-// //FOR...IN --> Pour acceder aux index du tableau
-// for (let position in stagiaires) {
-//     console.log(`(${position}, ${stagiaires[position]})`);
-// }
+//FOR...IN --> Pour acceder aux index du tableau
+for (let position in stagiaires) {
+    console.log(`(${position}, ${stagiaires[position]})`);
+}
 
 //MOT CLE BREAK & CONTINUE
 // +++++++++++++
