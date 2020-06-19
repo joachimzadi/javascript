@@ -7,8 +7,10 @@
       <module fileurl="file://$PROJECT_DIR$/02-saisie-user/02-saisie-user.iml" filepath="$PROJECT_DIR$/02-saisie-user/02-saisie-user.iml" />
       <module fileurl="file://$PROJECT_DIR$/03-type-number/03-type-number.iml" filepath="$PROJECT_DIR$/03-type-number/03-type-number.iml" />
       <module fileurl="file://$PROJECT_DIR$/04-type-boolean-condition/04-type-boolean-condition.iml" filepath="$PROJECT_DIR$/04-type-boolean-condition/04-type-boolean-condition.iml" />
-      <module fileurl="file://$PROJECT_DIR$/05-tableaux/05-tableaux.iml" filepath="$PROJECT_DIR$/05-tableaux/05-tableaux.iml" />
-      <module fileurl="file://$PROJECT_DIR$/06-strings/06-strings.iml" filepath="$PROJECT_DIR$/06-strings/06-strings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05-fonctions/05-fonctions.iml" filepath="$PROJECT_DIR$/05-fonctions/05-fonctions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06-tableaux/06-tableaux.iml" filepath="$PROJECT_DIR$/06-tableaux/06-tableaux.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07-strings/07-strings.iml" filepath="$PROJECT_DIR$/07-strings/07-strings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08-notion-object/08-notion-object.iml" filepath="$PROJECT_DIR$/08-notion-object/08-notion-object.iml" />
       <module fileurl="file://$PROJECT_DIR$/exercices/exercices.iml" filepath="$PROJECT_DIR$/exercices/exercices.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/javascript.iml" filepath="$PROJECT_DIR$/.idea/javascript.iml" />
     </modules>

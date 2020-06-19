@@ -29,11 +29,9 @@ console.log(typeof maVariable);//-->object
 //On dit que JavaScript est un langage faiblement typé
 // ===================================================
 
-/*
 //Il est interdit de declarer une variable plusieurs fois
 let maVariable = 78;
 console.log(maVariable);
-*/
 
 //Declaration suivi d'une assignation ou affectation
 let prenom = "Joachim";
@@ -44,9 +42,9 @@ nom = 'Bakary';
 estMajeur = false;
 
 //Les mot reservés au JS ne peuvent servir de nom de variable
-// let var;//-->Interdit
+let var;//-->Interdit
 
-// let 5nom = "DAWM";//--> Le d'une variable ne peut commencer par un nombre
+let 5nom = "DAWM";//--> Le d'une variable ne peut commencer par un nombre
 let nom5 = "DAWM";
 console.log(nom5)
 
@@ -56,12 +54,12 @@ console.log(_nom)
 let _nom_ = "DAWM";
 console.log(_nom_);
 
-let monPrenom; //Notation Kamel Case
+let monPrenom; //Notation KamelCase
 let mon_prenom;
 
 //Declaration de constante ==> const
 const ma_constante = "Sabrine";
-// ma_constante = "Sabrine";//-->Modification interdite
+ma_constante = "Sabrine";//-->Modification interdite
 
 //UTILISATION DES VARIABLES
 // ++++++++++++++++++++++++

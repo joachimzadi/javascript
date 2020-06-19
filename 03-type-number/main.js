@@ -1,7 +1,6 @@
 // Crée par Joachim Zadi le 16/06/2020 à 10:16
 // ===========================================
 
-/*
 // LES NOMBRES EN JS
 // =================
 
@@ -62,9 +61,8 @@ console.log(`resultat = ${resultat}`);
 
 resultat = -0;
 console.log(`resultat = ${resultat}`);
-*/
 
-// LES OPRERATEURS D'ASSIGANTIONS
+// LES OPRERATEURS D'ASSIGNATIONS
 // =============================
 
 let x = 3;
@@ -92,9 +90,9 @@ let resultat = a + x;
 
 console.log(`resultat = ${resultat}`);
 
-// resultat = a + x++;
-// console.log(`x = ${x}`);
-// console.log(`resultat = ${resultat}`);
+resultat = a + x++;
+console.log(`x = ${x}`);
+console.log(`resultat = ${resultat}`);
 
 resultat = a + ++x;
 console.log(`x = ${x}`);
