@@ -17,7 +17,7 @@ if (Number.isNaN(n)) {
     } while (Number.isNaN(n));
 }
 
-let somme = 0, moyenne = 0;
+let somme = 0;
 for (let i = 1; i <= n; i++) {
     let saisie = Number(prompt(`Nombre N°${i}`));
     if (Number.isNaN(saisie)) {
