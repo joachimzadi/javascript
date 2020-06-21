@@ -11,6 +11,8 @@
       <module fileurl="file://$PROJECT_DIR$/06-tableaux/06-tableaux.iml" filepath="$PROJECT_DIR$/06-tableaux/06-tableaux.iml" />
       <module fileurl="file://$PROJECT_DIR$/07-strings/07-strings.iml" filepath="$PROJECT_DIR$/07-strings/07-strings.iml" />
       <module fileurl="file://$PROJECT_DIR$/08-notion-object/08-notion-object.iml" filepath="$PROJECT_DIR$/08-notion-object/08-notion-object.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09-complement-js/09-complement-js.iml" filepath="$PROJECT_DIR$/09-complement-js/09-complement-js.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10-les-objets-du-BOM/10-les-objets-du-BOM.iml" filepath="$PROJECT_DIR$/10-les-objets-du-BOM/10-les-objets-du-BOM.iml" />
       <module fileurl="file://$PROJECT_DIR$/exercices/exercices.iml" filepath="$PROJECT_DIR$/exercices/exercices.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/javascript.iml" filepath="$PROJECT_DIR$/.idea/javascript.iml" />
     </modules>
