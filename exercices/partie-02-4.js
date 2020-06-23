@@ -22,3 +22,4 @@ let operateurDeTri = function (a, b) {
 tableau = tableau.sort(operateurDeTri);
 console.log("tableau trié", tableau);//Tableau trie
 
+
