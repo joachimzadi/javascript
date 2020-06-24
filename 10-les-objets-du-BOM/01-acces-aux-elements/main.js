@@ -4,20 +4,27 @@
 // Recherche d'un element à partir du nom de tag
 // *********************************************
 
-// TODO
+// let divTags = document.getElementsByTagName('a');
+// console.log(divTags);
+
 
 // Recherche d'un element à partir de son Id
 // *****************************************
 
-// TODO
+// let titreHeader = document.getElementById('titreHeader');
+// console.log(titreHeader);
 
 // Recherche d'un element à partir du nom de sa classe CSS
 // *******************************************************
 
-// TODO
+// let classNavItem = document.getElementsByClassName('nav-item');
+// console.log(classNavItem);
 
 // Recherche d'un element à partir du nom de son delecteur CSS
 // ***********************************************************
 
-// TODO
+// let selectorLien = document.querySelector('a');
+// console.log(selectorLien);
 
+// let selectorLiens = document.querySelectorAll('p a');
+// console.log(selectorLiens);

@@ -25,6 +25,9 @@ let modulo = function (g, d) {
     return g % d;
 };
 
+//Appel de la fonction
+modulo(5, 3);
+
 /*
 Notez qu'il y a un point-virgule après la fin de la declaration de la fonction, tout comme il y en aurait
 après toute initialisation de variable.

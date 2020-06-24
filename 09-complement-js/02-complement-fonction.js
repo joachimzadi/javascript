@@ -3,38 +3,92 @@
 
 // GENERALITES SUR LES FONCTIONS
 // =============================
-
-//Definition ou signature d'une fonction
-function sum(g, d) {
-    return g + d;
+function somme(a, b) {
+    return a + b;
 }
 
-/*
-Dans ce code, une variable somme est définie et initialisée en tant que fonction. Notez qu'il n'y a pas de
-nom inclus après le mot-clé de la fonction parce qu'il n'est pas nécessaire - la fonction peut être référencée
-par la variable somme. Notez également qu'il n'y a pas de point-virgule après la fin de la définition de la
-fonction
-.*/
+somme(2, 3);
 
-/*
-La syntaxe de déclaration d'une fonction est presque exactement équivalente à l'utilisation d'une
-expression de fonction comme celle-ci :
-*/
+let modulo = function (a, b) {
+    return a % b;
+}
+modulo(9, 4);
 
-let modulo = function (g, d) {
-    return g % d;
-};
+let disivion = (a, b) => {
+    return a / b;
+}
 
-/*
-Notez qu'il y a un point-virgule après la fin de la declaration de la fonction, tout comme il y en aurait
-après toute initialisation de variable.
-*/
+let message;
 
-/*
-Une autre façon de définir une fonction qui est assez similaire à une expression de fonction est
-d'utiliser la ,otation "flèchée" ou expression lambda,comme celle-ci :
-*/
+function auSecours() {
+    let message = `A l'aide, je suis pris au piege par les flammes`;
+    console.log(message);
+}
 
-let multiply = (g, d) => {
-    return g * d;
-};
+// auSecours();
+// console.log(message);
+
+let oiseau = "Duck Algerien";
+
+function nomOiseu() {
+    let oiseau = "Corbeau Iranien";
+    console.log(oiseau);
+}
+
+// console.log(oiseau);
+// nomOiseu();
+
+let rayon = 8;
+
+if (rayon > 7) {
+    const PI = Math.PI;
+    let perimetre = 2 * PI * rayon;
+}
+// console.log(rayon);
+// console.log(PI);
+// console.log(perimetre);
+
+let externe = () => {
+    let hero = "Spiderman";
+
+    function interne() {
+        let appelAide = `${hero}, s'il te plait aide moi`;
+        console.log(appelAide);
+    }
+
+    interne();
+}
+//
+// externe();
+// interne();
+
+function definieDeuxFois(func) {
+    func();
+    func();
+}
+
+function rire() {
+    console.log("AHAHAHAHAHAHAHAHAH");
+}
+
+// definieDeuxFois(rire);
+
+function sum() {
+    console.log(5 + 10);
+}
+
+// definieDeuxFois(sum);
+
+let tab = [1, 2, 3, 4];
+let tabMap = tab.map(function (i) {
+    return i * 3;
+});
+tab.map(i => i * 3);
+
+// console.log(tab);
+// console.log(tabMap);
+
+let tableau = [48, -69, 78, -1, -23, 45];
+console.log(tableau);
+let tableauTrie = tableau.sort((a, b) => a - b);
+console.log(tableauTrie);

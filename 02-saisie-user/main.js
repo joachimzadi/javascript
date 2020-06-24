@@ -22,13 +22,13 @@ console.log(typeof age);
 
 //Tout ce que vous saisissez dans le prompt est consideré comme string
 
-let prenom = prompt("Entrez votre prenom svp");
-let age = prompt("Entrez votre âge");
-
-console.log("Bonjour " + prenom + ", vous avez " + age +" ans");
-alert('Bonjour ' + prenom + ", vous avez " + age +" ans");
-
-console.log('Dimanche j\'irai au "USA"');//Attention au caractere d'echapement \
-console.log("Dimanche j\'irai au \"USA\"");
-console.log(`Dimanche j'irai au "USA"`);//String Template
-console.log(`Bonjour ${prenom}\nVous avez ${age} ans`);
+// let prenom = prompt("Entrez votre prenom svp");
+// let age = prompt("Entrez votre âge");
+//
+// console.log("Bonjour " + prenom + ", vous avez " + age +" ans");
+// alert('Bonjour ' + prenom + ", vous avez " + age +" ans");
+//
+// console.log('Dimanche j\'irai au "USA"');//Attention au caractere d'echapement \
+// console.log("Dimanche j\'irai au \"USA\"");
+// console.log(`Dimanche j'irai au "USA"`);//String Template
+// console.log(`Bonjour ${prenom}\nVous avez ${age} ans`);

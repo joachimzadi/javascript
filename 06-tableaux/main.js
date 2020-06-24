@@ -28,7 +28,7 @@ console.log(stagiaires[8]);
 stagiaires[2] = 'Guedda';
 console.log(stagiaires[2]);
 
-//METHODES DE TABLEAUX
+// METHODES DE TABLEAUX
 // +++++++++++++++++++
 
 let numeros = [1, 2, 3, 4];
