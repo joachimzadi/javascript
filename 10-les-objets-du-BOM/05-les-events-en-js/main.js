@@ -12,13 +12,16 @@ p1.addEventListener('click', function () {
 let p2 = document.querySelectorAll('p')[1];
 console.log(p2);
 
-p2.addEventListener('mouseenter', function () {
+function message1() {
     this.innerHTML = "<h2>Vous survolez le paragraphe 2</h2>";
     this.style.color = "blue";
     this.style.textTransform = "capitalize";
-});
+}
 
-p2.addEventListener('mouseleave', () => {
+function message2() {
     this.innerHTML = "Survolez-moi svp!";
     this.style.color = "orange";
-});
+}
+
+p2.addEventListener('mouseenter', message1);
+p2.addEventListener('mouseleave', message2);
