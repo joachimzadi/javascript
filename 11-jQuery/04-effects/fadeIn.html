@@ -17,4 +17,13 @@
 <br>
 <div id="div3" style="width:80px;height:80px;display:none;background-color:blue;"></div>
 </body>
+<script>
+    $(document).ready(function () {
+        $("button").click(function () {
+            $('#div1').fadeIn();
+            $('#div2').fadeIn(10000);
+            $('#div3').fadeIn("slow");
+        })
+    });
+</script>
 </html>

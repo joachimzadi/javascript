@@ -8,4 +8,14 @@
 <body>
 <h1>Je suis un paragraphe</h1>
 </body>
+<script>
+    $(document).ready(function () {
+
+        $('h1').hover(function () {
+            $(this).hide();
+        }, function () {
+            $(this).show();
+        });
+    })
+</script>
 </html>

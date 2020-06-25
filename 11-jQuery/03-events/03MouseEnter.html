@@ -7,5 +7,18 @@
 </head>
 <body>
 <h1>Je suis un paragraphe</h1>
+
+<script>
+    $(document).ready(function () {
+
+        $("h1").mouseenter(function () {
+            $(this).hide();
+        });
+
+        $("h1").mouseleave(function () {
+            $(this).show();
+        });
+    })
+</script>
 </body>
 </html>

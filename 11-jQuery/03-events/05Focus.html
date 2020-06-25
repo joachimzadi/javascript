@@ -10,5 +10,20 @@ Prenom : <input type="text" name="fullname"/>
 <br>
 Email: <input type="text" name="email"/>
 
+
+<script>
+    $(document).ready(function () {
+
+        //Obtention du focus
+        $('input').focus(function () {
+            $(this).css('background', '#c5cae9')
+        });
+
+        //Perte du focus
+        $('input').blur(function () {
+            $(this).css('background', '#cddc39')
+        });
+    })
+</script>
 </body>
 </html>
