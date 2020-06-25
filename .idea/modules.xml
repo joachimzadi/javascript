@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/11-jQuery/11-jQuery.iml" filepath="$PROJECT_DIR$/11-jQuery/11-jQuery.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/javascript.iml" filepath="$PROJECT_DIR$/.idea/javascript.iml" />
     </modules>
   </component>
